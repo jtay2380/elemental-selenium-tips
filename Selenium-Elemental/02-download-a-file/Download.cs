@@ -10,7 +10,7 @@ using OpenQA.Selenium.Firefox;
 
 using System.Net;
 
-namespace Selenium_Elemental._02_download_a_file
+namespace Selenium_Elemental
 {
     [TestClass]
     public class Download

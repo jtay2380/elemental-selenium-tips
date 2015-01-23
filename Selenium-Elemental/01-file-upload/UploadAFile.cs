@@ -7,7 +7,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 
-namespace _01_upload_file
+namespace Selenium_Elemental
 {
     [TestClass]
     public class UploadAFile
