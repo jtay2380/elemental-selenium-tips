@@ -1,6 +1,6 @@
 ﻿/*Logic Copied from Dave Haufnerr's Upload File Ruby Test
  *Rewritten in C# using Selenium and MS Test
- *Jonathan Taylor 1/20/2015
+ *Jonathan Taylor 1/28/2015
 */
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -43,6 +43,7 @@ namespace Selenium_Elemental
         public void iFrames()
         {
             Driver.Navigate().GoToUrl("http://the-internet.herokuapp.com/tinymce");
+
             Driver.SwitchTo().Frame("mce_0_ifr");
             IWebElement Editor = Driver.FindElement(By.Id("tinymce"));
             string BeforeText = Editor.Text;
